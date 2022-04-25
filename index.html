@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Conversor de Moedas</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+  
+<body>
+
+  
+  <h3>Conversor de Moedas</h3>
+  
+  
+  
+  <div class="p1">
+    <p>Escolha a moeda de entrada:</p>
+    <div><input type="radio" name="in" value="real">REAL</div>
+    <div><input type="radio" name="in" value="dolar">DOLAR</div>
+    <div><input type="radio" name="in" value="euro">EURO</div>
+    <div><input type="radio" name="in" value="libra">LIBRA</div>
+  </div>
+  
+  
+  
+  <div class="p2">
+    <p>Escolha a moeda de saída:</p>
+    <div><input type="radio" name="out" value="real">REAL</div>
+    <div><input type="radio" name="out" value="dolar">DOLAR</div>
+    <div><input type="radio" name="out" value="euro">EURO</div>
+    <div><input type="radio" name="out" value="libra">LIBRA</div>
+  </div>
+  
+  
+  
+  <div>
+    <div>Digite o Valor:</div>
+    <input id="quantia" type="number" step="0.01" value="0.00">
+  </div>
+  
+  
+  <div>
+    <button onclick="converter()">CONVETER</button>
+  </div>
+ 
+  
+  <div>
+    <p>O valor Convertido é: <span id="res">0,0</span>. </p>
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>

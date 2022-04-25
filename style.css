@@ -1,0 +1,15 @@
+.p1{
+  text-transform: uppercase;
+  font-family: system-ui;
+  color: red;
+}
+
+.p2{
+  text-transform: uppercase;
+  font-family: system-ui;
+  color: green;
+}
+
+body{
+  text-align:  center;
+}
